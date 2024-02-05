@@ -14,7 +14,8 @@ long long summation(int arr[], int n) {
 
 // Function to find the maximum integer in the array
 
-int maximum(int arr[], int n) {
+int maximum(int arr[], int n) 
+{
     int max = arr[0];
     for (int i = 1; i < n; i++) {
         if (arr[i] > max) {
