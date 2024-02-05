@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to calculate the summation of the integers in the array
+// Function to calculate the summation of the integers in the array//
+
 long long summation(int arr[], int n) {
     long long sum = 0;
     for (int i = 0; i < n; i++) {
@@ -12,6 +13,7 @@ long long summation(int arr[], int n) {
 }
 
 // Function to find the maximum integer in the array
+
 int maximum(int arr[], int n) {
     int max = arr[0];
     for (int i = 1; i < n; i++) {
