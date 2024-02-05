@@ -40,8 +40,8 @@ int main() {
 **Question Two (2) - Rotate Array**
 
 #include <stdio.h>
-/**C code that allows user to rotate array to the right by k steps,
-k is non-negative**/
+/*C code that allows user to rotate array to the right by k steps,
+k is non-negative*/
 
 void rotateArray(int arr[], int n, int k) {
     if (k > 0 && n > 0) {
@@ -82,7 +82,7 @@ int main() {
 
 #include <stdio.h>
 #include <stdbool.h>
-/**C code that allows the user to input an array of integers and checks for duplicates**/
+/*C code that allows the user to input an array of integers and checks for duplicates*/
 
 bool containsDuplicate(int arr[], int n) {
     bool seen[1000] = {false}; //assuming the integers are in the range [0, 1000)
@@ -118,8 +118,8 @@ int main() {
 //Single Number
 #include <stdio.h>
 #include <stdbool.h>
-/**C code that allows the user to input a non-empty array of integers 'nums',
-where every element appears twice except for one, and helps find that single one:**/
+/*C code that allows the user to input a non-empty array of integers 'nums',
+where every element appears twice except for one, and helps find that single one:*/
 
 int findSingleOne(int nums[], int n) {
     int result = 0;
